@@ -1,6 +1,6 @@
 import FlashCardCreator from "../components/FlashCardCreator";
-import TranslationPreview from "../components/Translatepreview";
-import RecentCards from "../components/Recentscards";
+import TranslationPreview from "../components/TranslatePreview";
+import RecentCards from "../components/RecentsCards";
 
 const cards = [
   { word: "Morning", translation: "Mañana" },
