@@ -17,7 +17,6 @@ export default function App() {
       <Route path="/register" element={<Register />} />
       <Route element={<Layout />}>
         <Route path="/dashboard" element={<Dashboard />} />
-        <Route path="/decks" element={<MyDecks />} />
         <Route path="/decks/:deckId" element={<DeckSession />} />
         <Route path="/decks/study/:deckId" element={<StudySession />} />
         <Route path="/profile" element={<Profile />} />
